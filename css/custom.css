@@ -1,0 +1,89 @@
+html,
+body {
+  overflow: hidden;
+  margin: 0;
+}
+.apps_panel + .card_panel {
+  background: rgba(0, 0, 0, 0.5);
+}
+.white-text {
+  color: rgb(236, 236, 236) !important;
+}
+.side {
+  height: 100vh;
+}
+.main {
+  height: 100vh;
+}
+.profile_img {
+  margin-top: 30px;
+}
+.profile_img img.circle {
+  border: 2px solid rgb(105, 105, 105);
+}
+.logo-li {
+  height: 45px !important;
+}
+.btn {
+  width: 80%;
+  margin-top: 15px;
+}
+.triangle {
+  background-image: url("../img/triangle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.main-bg {
+  background-image: url("../img/bg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.black {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.link_orange {
+  transition: box-shadow, padding 0.2s;
+}
+.link_orange:hover {
+  border-radius: 5px;
+  box-shadow: orange 0px 0px 5px 1px;
+  padding: 7px;
+}
+.link_green {
+  transition: box-shadow, padding 0.2s;
+}
+.link_green:hover {
+  border-radius: 5px;
+  box-shadow: limegreen 0px 0px 5px 1px;
+  padding: 7px;
+}
+.link_purple {
+  transition: box-shadow, padding 0.2s;
+}
+.link_purple:hover {
+  border-radius: 5px;
+  box-shadow: darkorchid 0px 0px 5px 1px;
+  padding: 7px;
+}
+h5 {
+  font-size: 20px;
+  line-height: 110%;
+  /* margin: 1.0933333333rem 0 0.656rem 0; */
+  color: floralwhite;
+  margin: -10px 0px 10px 0px;
+  padding: 5px;
+}
+
+.profile-pic {
+  max-height: 200px;
+}
+
+#terminal {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  padding: 10px;
+  text-align: left;
+  border: 9px #4d4d4d ridge;
+}

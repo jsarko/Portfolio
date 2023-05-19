@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86364424-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-86364424-1");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Joe Sarko | Profile</title>
+    <!-- Compiled and minified Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Materialize Icon Pack -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col s12 m4 l2 grey darken-4 side center-align triangle">
+        <!-- Sidebar -->
+        <div class="row profile_img">
+          <div class="col s12">
+            <span data-tilt>
+              <img class="circle responsive-img z-depth-2 js-tilt profile-pic" src="img/profile.jfif" />
+            </span>
+          </div>
+          <h4 class="white-text">Joe Sarko</h4>
+          <h5>Software Engineer</h5>
+          <span data-tilt>
+            <a class="" href="https://www.linkedin.com/in/joesarko/" target="_blank">
+              <img class="js-scale logo-li responsive-img" src="img\LI-In-Bug.png" />
+            </a>
+          </span>
+          <span data-tilt>
+            <a class="" href="https://github.com/jsarko" target="_blank">
+              <img class="js-scale logo-li responsive-img" src="img\git-logo.png" />
+            </a>
+          </span>
+        </div>
+        <div class="row white-text">
+          <div class="col s12">
+            <h6 class="blue-text text-lighten-2">
+              <i class="material-icons left">location_on</i>
+              Wheaton, IL
+            </h6>
+          </div>
+          <div class="col s12">
+            <h6 class="pink-text text-lighten-2">
+              <i class="material-icons left">phone</i>
+              (330) 442 - 3608
+            </h6>
+          </div>
+          <div class="col s12">
+            <h6 class="orange-text text-lighten-1">
+              <i class="material-icons left">email</i>
+              <a
+                class="link_orange orange-text text-lighten-1"
+                href="mailto:joesarko@gmail.com"
+                target="_blank"
+              >
+                Contact Me
+              </a>
+            </h6>
+          </div>
+          <div class="col s12">
+            <h6 class="green-text text-lighten-1">
+              <i class="material-icons left">picture_as_pdf</i>
+              <a
+                class="link_green green-text text-lighten-1"
+                href="docs/joe_sarko_resume_2020.pdf"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </h6>
+          </div>
+          <div class="col s12">
+            <h6 class="purple-text text-lighten-3">
+              <i class="material-icons left">apps</i>
+              <a
+                class="link_purple purple-text text-lighten-3"
+                href="https://github.com/jsarko"
+                target="_blank"
+              >
+                Projects
+              </a>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <!-- Main body -->
+      <div class="col s12 m8 l10 main blue lighten-4 main-bg white-text valign-wrapper">
+        <div class="row center" style="margin: 0 auto; width: 100%">
+          <div class="col s12">
+            <div id="terminal">
+              <div id="output">
+                <p>Windows PowerShell</p>
+                <p>Version 10.0.19041.1</p>
+                <p>© Microsoft Corporation. All rights reserved.</p>
+                <p>
+                  Install the latest PowerShell for new features and improvements!
+                  <a href="https://github.com/jsarko">https://github.com/jsarko</a>
+                </p>
+              </div>
+              <input
+                type="text"
+                id="input"
+                class="browser-default"
+                style="
+                  background-color: transparent;
+                  border: none;
+                  color: #0f0;
+                  font-family: monospace;
+                  outline: none;
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Compiled and minified Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Compiled and minified JQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <!-- tilt.js | https://gijsroge.github.io/tilt.js/ -->
+  <script src="js/tilt.jquery.js"></script>
+  <script src="js/terminal.js"></script>
+  <script>
+    $(".js-tilt").tilt({
+      glare: true,
+      maxGlare: 0.5,
+    });
+    $(".js-scale").tilt({
+      scale: 1.2,
+    });
+  </script>
+</html>
